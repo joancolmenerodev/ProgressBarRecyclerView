@@ -87,14 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
     // load data
     private void loadData() {
-
         for (int i = 1; i <= 20; i++) {
             DataList.add(new DataItems("Joan " + i, "Colmenero" + i + "@gmail.com"));
-
         }
-
-
     }
-
-
 }

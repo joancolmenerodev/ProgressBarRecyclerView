@@ -27,8 +27,8 @@ public class DataAdapter extends RecyclerView.Adapter {
 
 
 
-    public DataAdapter(List<DataItems> students, RecyclerView recyclerView) {
-        dataList = students;
+    public DataAdapter(List<DataItems> dataitems, RecyclerView recyclerView) {
+        dataList = dataitems;
 
         if (recyclerView.getLayoutManager() instanceof LinearLayoutManager) {
 
